@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  header {background-color: #560000}
+  header,
+nav,
+article,
+aside,
+footer {
+  padding: 5px;
+}
+nav {
+  background-color: #040269;
+  color: #ff0000;
+}
+article {
+  color: #ffffff;
+  background-image: url(rlyslo.jpg)
+  
+}
+aside {
+  background-color: #040269;
+}
+footer {
+  background-color: #810707cc;
+}
+
+  main {
+    display: flex;
+    flex: 1;
+  }
+  
+  article {
+    flex: 1;
+  }
+  
+  nav,
+  aside {
+    /* 12em is the width of the side columns */
+    flex: 0 0 12em;
+  }
